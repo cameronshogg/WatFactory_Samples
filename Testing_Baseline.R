@@ -16,3 +16,6 @@ boxplot(baseline$y300~baseline$daycount, main = "Boxplot of Camshaft Straightnes
 
 boxplot(baseline$y300~baseline$shift, main = "Boxplot of Camshaft Straightness by Shift",
         xlab = "Shift", ylab = "Camshaft Straightness", col="orchid")
+
+# Value of ~5 for the SD of the test account.
+sd(baseline$y300)

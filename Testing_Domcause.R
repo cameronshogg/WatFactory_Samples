@@ -18,5 +18,3 @@ plot(variation$y200~variation$y100, main = "y200 and y100",
      col = "black")
 
 summary(lm(variation$y200~variation$y100))
-
-
